@@ -1,0 +1,145 @@
+/** NEW CSS **/
+
+#header_container {
+	width:100%;
+	height:131px;
+	background:no-repeat;
+	background-position: center bottom;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin-bottom: 1px;
+}
+
+#header_above_swoosh_container {
+	margin-top:-15px;
+	background:#041E54;
+	width:100%;
+	height:170px;
+	position: relative;
+	background-position: center bottom;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+/** EXISTING CSS OVERWRITES **/
+
+#background_footer {
+clear: both;
+padding-right: 0px;
+padding-left: 0px;
+height:auto;
+padding-bottom: 0px;
+margin: 0px;
+width: 100%;
+padding-top: 0px;
+background-color: #041e54 !important;
+background-position: center bottom;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+overflow-x: hidden;
+}
+#searchBox{float:right;margin-top:20px;}
+
+#footer_container {
+clear: both;
+padding-right: 0px;
+padding-left: 0px;
+padding-bottom: 0px;
+margin: 0px auto;
+overflow: visible;
+width: 960px;
+padding-top: 85px;
+background: none !important;
+}
+
+#header_logo {
+	float:left;
+	width:179px;
+	margin-top:-50px;
+    margin-left: -150px;
+}
+
+
+/** Main nav changes **/
+#menu #globalnav ul li.top a, #menu #globalnav ul li.top a:link {
+font-weight: normal !important;
+color: #e3e3e3;
+}
+
+#menu #globalnav ul li.top a:hover {
+font-weight: normal !important;
+color: #FFFFFF !important;
+}
+
+#menu #globalnav ul li.top a:active {
+font-weight: bold !important;
+color: #FFFFFF;
+}
+
+#menu #globalnav ul.globaldropdown li a, #menu #globalnav ul.globaldropdown li a:link,#menu #globalnav ul.globaldropdown li a:hover {
+padding-right: 0px;
+padding-left: 35px;
+font-weight: bold;
+font-size: 15px;
+padding-bottom: 0px;
+color: #6b6b6b !important;
+padding-top: 0px;
+text-decoration: none;
+border-bottom-style: none;
+}
+
+
+/** Footer nav changes **/
+
+
+#footer_container a,#footer_container a:link {
+color: #e3e3e3;
+font-weight: bold;
+text-decoration: none;
+border-bottom-style: none;
+}
+
+#footer_container a:hover {
+color: #FFFFFF;
+text-decoration: none;
+border-color: #FFFFFF;
+}
+
+ul#utility {
+margin: 0px 45px 0px 45px !important;
+font-size: 14px !important;
+}
+
+/** Utility nav changes **/
+ul#utility_top li a {
+color: #e3e3e3;
+font-weight: bold;
+    font-size: 13px;
+border-bottom-style: none;
+}
+
+ul#utility_top li a:hover {
+color: #FFFFFF;
+font-weight: bold;
+border-color: #FFFFFF;
+}
+
+
+#body_container {
+border-top: none !important;
+}
+
+#icons {
+float: right;
+margin: 15px 0px 0px !important;
+width: auto;
+}
+
+#copyright {
+text-align: center;
+}

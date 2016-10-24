@@ -1,0 +1,178 @@
+@media screen and (max-width:1365px){
+p,li{
+font-size:18px;
+line-height:1.6;
+}
+.table-box{
+line-height: 1.6;
+    margin: 0 auto;
+    padding: 2em 0 3em;
+    width: 90%;
+    overflow: hidden;
+}
+h3 {
+    padding-right: 0px;
+    padding-left: 0px;
+    font-weight: bolder;  
+    padding-bottom: 10px;
+    margin: 0px;
+    line-height: 1.6;
+    padding-top: 0px;
+}
+}
+
+@media screen and (max-width:500px){
+
+.table-box {
+    line-height: 1.6 !important;
+    margin: 0 auto;
+    padding: 2em 0 3em;
+    width: 92% !important;
+    overflow: hidden;
+}
+#cssmenu1 > ul > li > a {
+    z-index: 2;
+	padding: 18px 10px 12px 10px !important;
+    font-size: 30px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #444444;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+    /* margin-right: -4px; */
+}
+
+ #cssmenu1 ul li{
+ margin: 0 2rem 0 2rem;
+ }
+ 
+#colTwo {
+    width: 100%;
+    float: left;
+	padding: 0 !important;
+}
+
+
+#colOne ul {
+    margin-left: 5%;
+    padding-left: 20px;
+    padding-right: 20px;
+    list-style: none;
+}
+.table-reduced th, td {
+    border: 0 !important;
+    padding: .5em;
+}
+body > div.table-box > table > tbody > tr a{
+margin:0 !important;
+}
+ ul {
+    text-align: left !important;
+}
+}
+
+@media screen and (min-width:985px) and (max-width:1365px){
+#vc_photo{
+        height:auto;float:left; width:20%; margin-top:100px; text-align:center;
+    }
+    #vc_img{
+        height:250px;width:200px;
+    }
+    #vc_text{
+        float:left;width:60%; height:auto; position:relative; margin-left:70px; margin-top:50px; font-size:20px; font-family:Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', serif; text-align: justify;
+    }
+}
+@media screen and (min-width:1366px){
+    
+    #uss_dean_image {
+  margin-left: 12.5%;
+    margin-top: 25px;
+    width: 300px;
+   
+}
+    #cssmenu1{
+     margin-left: 13% !mportant;   
+    }
+    
+ #uss_dean_info {
+    height: auto;
+    /* width: 750px; */
+    width: 40%;
+    /* float: left; */
+    position: relative;
+   
+    font-size: 20px;
+}
+    .rnc{
+     margin-left:14% !important;   
+    }
+#uss_dean_text {
+    font-size: 20px;
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+}    
+    #uss_dean_text {
+    
+    width: 88% !important;
+  
+}
+}
+@media screen and (max-width:984px){
+#vc_photo{
+        height:auto; margin-top:100px; text-align:center;
+    }
+    #vc_img{
+        height:250px;width:200px;
+    }
+    #vc_text{
+        height:auto; position:relative; margin-left:20px; margin-right:20px; margin-top:50px; font-size:20px; font-family:Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', serif; text-align: justify;
+    }
+}
+@media screen and (min-width:985px) and (max-width:1365px){
+#uss_dean_image{
+float:left; position:relative; margin-left:100px;margin-top:25px;
+}
+#uss_dean_info{
+height:450px; width:750px; float:left;position:relative; margin-left:50px; font-size:20px;
+}
+#uss_dean_text{
+font-size:20px; width:1100px; margin-left:100px; 
+
+}
+.dsw{
+margin-left:100px;
+}
+
+
+}	
+@media screen and (max-width:984px){
+
+#uss_dean_image{
+margin:25px;
+}
+#uss_dean_info{
+margin:20px; font-size:20px line-height:1.6;
+}
+
+#uss_dean_text{
+font-size:20px;
+line-height: 1.6;
+margin: 20px;
+}
+.dsw,.dsw>ul,.dsw ul li ,.dsw ul li a{
+margin-left:100px;
+display:inline-table !important;
+}
+.dsw>ul{
+white-space:nowrap;
+}
+
+}
+.carousel-indicators {
+ 
+    left: 58% !important;
+}

@@ -1,0 +1,73 @@
+/* Professor Style*/
+
+.proff{
+display:flex;
+flex-direction:column;
+font: 16px/26px Helvetica, Arial, sans-serif;
+-webkit-font-smoothing: antialiased;
+word-wrap: break-word;
+text-align:left !important;
+padding:3rem;
+border-bottom:1px solid #999;
+color:#666666;
+}
+.big{
+display:flex;
+flex-direction:column;
+padding-top:2rem;
+
+}
+
+h1{
+margin:0 auto;
+text-decoration:none;
+}
+.proff img{
+width:15rem;
+		height:15rem;
+		border-radius:10px;
+}
+.page-wrap1{
+display:none;
+
+}
+.page-wrap2{
+display:none;
+
+}
+.page-wrap3{
+display:none;
+
+}.page-wrap4{
+display:none;
+
+}.page-wrap5{
+display:none;
+
+}.page-wrap6{
+display:none;
+
+}
+
+.page-wrap7{
+display:none;
+
+}
+.page-wrap8{
+display:none;
+}
+
+@media screen and (max-width: 500px) {
+
+.proff{
+
+font: 12px/20px Helvetica, Arial, sans-serif;
+line-height:20px;
+}
+}
+.ink{
+display:flex;
+flex-direction:column;
+}
+
+/* Dean Style*/

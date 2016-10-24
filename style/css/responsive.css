@@ -1,0 +1,108 @@
+<style>
+            #exam_head{width:250px; left:-67px;}
+            #col6{width:100%}
+            #academics_head{width:400px;}
+            #admin_head{width:443px;}
+            #exam_head{width:252px;left:-40px;}
+            #discover_ipu{width:616px;}
+        </style>
+        
+@media (min-width:1360px){
+#footer_container{background:#041E54 !important;  height:60%;padding-top:65px !important;}
+#footer_utility {padding:0px;}
+#header_logo{margin-top:-50px;}
+}
+
+@media (min-width:1021px) and (max-width:1359px){
+.indicator{display:none;}
+    #header{position: absolute;top:30px;right: 0;width:700px;}
+    #header_logo{margin-left: -25px;}
+    #menu ul {padding-top:0px;}
+    .menuzord{margin-top:0px;
+    margin-left: -86px;}
+    #utilities_top{margin: 20px; width: 230px;}
+    .menuzord, .menuzord * {font-size: 15px;}
+    .menuzord-menu>li>a {padding:20px 15px;}}
+   
+@media (min-width:1020px){
+	.indicator{display:none;}
+        #notices{margin-left: 200px;}
+    #utilities_top{margin-top:20px;}
+    #events_notices{left:-150px;}
+    #events_notices,#campus_life{width: 400px;}
+     .carousel-inner {margin-left: 73px;}
+}
+@media screen and (min-width:768px) and (max-width:1019px){
+    #container,.container,#menu_container,#footer_container{width: 730px;}
+    /* IT WILL BE WRITTEN HERE */
+    .indicator{display:none;}
+    #header{position: absolute;top:30px;right: 0;width:700px;}
+    #header_logo{margin-left: -25px;}
+    #menu ul {padding-top:0px;}
+    .menuzord{margin-top:0px;}
+    #utilities_top{margin: 20px; width: 230px;}
+    .menuzord, .menuzord * {font-size: 15px;}
+    .menuzord-menu>li>a {padding:20px 4px;}
+    #events_notices{left:-180px;}
+    #discover_ipu{left:-70px;}
+    #events_notices,#campus_life{width: 350px;}
+    #footer_container{background:#041E54 !important; width: 100%;padding-top:40px !important;}
+    #footer_utility {padding-top:0px;}
+    
+}
+@media screen and (min-width:600px) and (max-width:767px){
+    #special_nav{width: 42%;}
+    #front_right_column{float:left;margin-left: 4%; }
+    #inner_right_column{float:right;margin-right: 4%;margin-top: -367px; }
+    #inner_left_column{clear: both;margin-left: 4%;}
+    #front_left_column{float: right;margin-right: 4%;}
+    #container,.container,#menu_container,#footer_container,#header{width: 570px}
+    #header_logo{margin-left: 0px;}
+    #utilities_top{display:none;}
+    #menuzord{margin-top: 0px;}
+    #footer_container{background:#041E54 !important; width: 100%;}
+    #footer_utility {padding-top:0px;}
+    .table_head{width: 100% !important}
+    
+}
+@media screen and (min-width:768px) and (max-width:1019px){
+    #front_right_column{float:left;margin-left: 10%; }
+    #inner_right_column{float:right;margin-right: 4%; }
+    #inner_left_column{clear: both;margin-left: 10%;}
+    #front_left_column{float: right;margin-right: 10%;}
+
+}
+@media screen and (max-width:599px){
+    #container,.container,#menu_container,#footer_container,#header,#inner_left_column,#inner_right_column,#featuredNews,#front_left_column,#front_right_column,#special_nav,#alert_box,.table-box{width: 95%;}
+    .table-box{width: 500px;}
+    #menuzord{margin-top: 10px;}
+    #front_right_column{margin-left: auto;}
+    html,body{width: 100%;height: 100%;margin: 0px;padding: 0px;overflow-x: hidden;}
+    .imageTextTitle{width:92%}
+    #featuredNews{margin:0 auto;}
+    #inner_left_column{margin-right: -30px;}
+    #front_left_column{margin-right: -52px;}
+	#footer_container{background:#041E54 !important; width: 100%; height:auto;}
+    #footer_container{overflow-y: hidden;padding-top:40px !important;}
+	ul#utility li{display:block;border: none}
+    ul#utility_top li{display:block; border: none}
+	#header_logo{width:75%;margin-left: auto;}
+    #header_logo<img{width:90%;}
+    img{max-width: 100%}
+    .menuzord{margin-top:auto;}
+    #newcfac{margin: auto}
+    #searchBox{display: none}
+    .menuzord, .menuzord * {font-size: 15px;}
+    #inner_right_column,#inner_left_column,#front_left_column{margin-top:-50px;}
+    #background_footer{height: auto;}
+    #utilities_top{display:none;}
+    .bordered {*border-collapse: collapse; /* IE7 and lower */ border-spacing: 0;width:100%;}
+    #footer_utility {padding-top:0px;}
+    .table_head{width: 100% !important}
+    #imageTextContent{width: 100%;}
+}
+@media screen and (max-width:400px){
+
+
+    #header_above_swoosh_container {height:140px;}
+}

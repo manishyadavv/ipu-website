@@ -1,0 +1,154 @@
+
+* {margin: 0; padding: 0;}
+
+p {margin-top: -15px; margin-bottom: 20px;}
+
+a {text-decoration: none; color: #fff; transition: all 0.1s ease-in;}
+img {border: 0;}
+
+body {
+	background: #fff;
+	color: #fff;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 13px;
+	font-weight: 300;
+}
+
+.clear {clear: both;}
+
+/* Buttons 
+.btn {
+	display: inline-block;
+	padding: 10px 10px;
+	color: rgba(255,255,255, 0.95);
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 20px;
+	outline: 0;
+	transition: all 0.1s ease-in;
+}
+
+.btn-transparent {background: rgba(0,0,0, 0.2);}
+.btn-transparent:hover {background: rgba(0,0,0, 0.4);}
+*/
+
+
+/* 02. FONT FACE ============================================ */
+
+@font-face {
+    font-family: 'norwester';
+	src: url('../fonts/norwester/norwester.eot');
+    src: url('../fonts/norwester/norwester.eot?iefix') format('embedded-opentype'),
+		 url('../fonts/norwester/norwester.ttf');
+    font-weight: normal;
+}
+
+/* 03. SPEAKERS SETTINGS ============================================ */
+
+#speakers {
+	padding: 10px 0;
+	background: #041E54;
+	text-align: center;	
+}
+
+#speakers p {
+	padding: 20px 0 30px;
+	color: rgba(255,255,255, 0.85);
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	letter-spacing: 0.2px;
+}
+
+#speakers h3 {
+	padding: 0 0 15px;
+	font-family: 'norwester';
+	font-size: 36px;
+	text-transform: uppercase;
+}
+
+#speakers h4  {
+	margin-top: -22px;
+	font-size: 26px;
+	font-weight: 600;
+}
+
+#speakers h4 span {
+	display: block;
+	position: relative;
+	left: -40px;
+	top: 0px;
+	font-size: 20px;
+	background: none;
+	padding: 0;
+}
+
+#speakers img {
+	width: 75%;
+	max-width: 240px;
+	border-radius: 50%; 
+	border: 15px solid transparent; 
+	box-shadow: 2px 2px 0px rgba(0,0,0, 0.18);
+	transition: all 0.1s ease-in;
+    margin: 20px 0px 0px 0px;
+}
+	
+#speakers img:hover {
+	border: 15px solid #02112f;
+	position: relative;
+	z-index: 10;
+	transition: all 0.1s ease-in;
+    width: 90%;
+}
+
+#speakers span {
+	padding: 8px 20px 8px 45px;
+	position: relative;
+	top: -64px;
+	left: -42px;
+	display: inline-block;
+	background: #041E54;
+	border-radius: 0 16px 16px 0;
+	font-size: 16px;
+}
+
+/* Member Image Hover Effect */
+.hover_img {
+  display: none
+}
+
+.member-profile:hover .unhover_img{
+  display: none;
+}
+
+.member-profile:hover .hover_img {
+  display: block;
+}
+
+/* Social Networks Meta */
+#speakers li {display: inline-block;}
+/* Rows Optimization */
+.social_button{border: none !important; width: 60% !important; }
+
+@media (min-width: 992px){
+.row1 .col-md-3{
+
+    margin-left:37%; 
+    margin-right:35%;
+    padding-bottom: 40px;
+}
+
+
+.row2 .col-md-3{
+
+    margin-left:5%; 
+    margin-right:2%;
+    padding-bottom: 40px;
+}
+
+.row3 .col-md-3{
+	padding-bottom: 40px;
+}
+
+}
